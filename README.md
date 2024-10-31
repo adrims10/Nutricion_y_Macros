@@ -1,4 +1,4 @@
-Proyecto: Análisis del Impacto de los Suplementos Deportivos en el Rendimiento en el Gimnasio
+**Proyecto: Análisis del Impacto de los Suplementos Deportivos en el Rendimiento en el Gimnasio**
 
 Descripción General:
 
@@ -6,21 +6,14 @@ El objetivo es investigar cómo diferentes suplementos deportivos influyen en el
 
 1. Uso de dos APIs gratuitas:
 
-API de MyFitnessPal: Para obtener datos sobre la ingesta de alimentos y suplementos de los usuarios.
+API de MyFitnessPal
+API de Strava
+O algo asi
 
-Enlace: MyFitnessPal API
-
-API de Strava: Para recopilar datos de entrenamientos y rendimiento de los usuarios.
-
-Enlace: Strava API
 
 2. Web Scraping de dos páginas web:
 
-Foros Deportivos Especializados: Como Bodybuilding.com o Muscle & Fitness Forums, para extraer opiniones y experiencias de los usuarios sobre suplementos.
-
-Páginas de Venta de Suplementos: Como Amazon o eBay, para obtener información sobre las ventas y popularidad de diferentes suplementos.
-
-Pasos del Proyecto:
+Foros Deportivos Especializados: Prozis...
 
 Extracción de Datos:
 
@@ -32,15 +25,15 @@ Strava API: Recopilar datos de entrenamientos, incluyendo tiempo, distancia, vel
 
 Web Scraping:
 
-Foros Deportivos: Usar BeautifulSoup o Selenium para extraer opiniones y experiencias de los usuarios sobre suplementos.
+Extraer opiniones y experiencias de los usuarios sobre suplementos.
 
-Páginas de Venta: Extraer datos de ventas, reseñas y calificaciones de diferentes suplementos.
+Extraer datos de ventas, reseñas y calificaciones de diferentes suplementos.
+
 
 Análisis de Sentimiento:
 
-Aplicar técnicas de Procesamiento de Lenguaje Natural (NLP) para analizar el sentimiento de las reseñas y opiniones (positivo, negativo, neutro).
+Analizar  el sentimiento de las reseñas y opiniones (positivo, negativo, neutro).
 
-Herramientas como NLTK, TextBlob o SpaCy pueden ser muy útiles aquí.
 
 Integración y Comparación:
 
@@ -48,54 +41,29 @@ Combinar los datos de ingesta de suplementos con las estadísticas de rendimient
 
 Analizar correlaciones entre el uso de ciertos suplementos y mejoras en el rendimiento (por ejemplo, aumento de fuerza, resistencia, recuperación).
 
+
 Visualización:
 
-Crear gráficos interactivos para mostrar la relación entre el uso de suplementos y el rendimiento.
+-Crear gráficos interactivos para mostrar la relación entre el uso de suplementos y el rendimiento.
+-Precios entre las dos paginas web scrapeadas.
+-Ejemplos de macros de las peñas
+-Comparativas de satisfaccion entre las paginas.
+-Personas con determinado precio que necesiten historias.
 
-Herramientas como Matplotlib, Seaborn o Plotly podrán ayudarte a visualizar tus hallazgos.
 
-Consideraciones Éticas y Legales:
 
-Respeto a los Términos de Servicio:
-
-Revisa las políticas de los sitios web antes de realizar web scraping. Algunos sitios pueden tener restricciones.
-
-Privacidad:
-
-Asegúrate de anonimizar cualquier información personal y cumple con las regulaciones de privacidad.
-
-Ideas Adicionales:
-
-Modelo Predictivo:
-
-Una vez analizados los datos, podrías implementar un modelo de machine learning para predecir el rendimiento en función del uso de suplementos.
-
-Ampliación a Otros Deportes:
+*Proximos pasos*:
 
 Considera incluir datos de otros deportes como el ciclismo o el running.
+Una vez analizados los datos, podrías implementar un modelo de machine learning para predecir el rendimiento en función del uso de suplementos.
 
-Herramientas y Tecnologías Recomendadas:
 
-Python:
 
-Librerías como pandas y numpy para manejo de datos.
 
-requests para consumir APIs.
 
-BeautifulSoup, Selenium para web scraping.
 
-NLTK, TextBlob, SpaCy para NLP.
 
-Entornos de Desarrollo:
 
-Jupyter Notebooks o Google Colab para documentar y ejecutar tu análisis de forma interactiva.
 
-Desafíos Potenciales y Soluciones:
 
-Limitaciones de las APIs:
 
-Las versiones gratuitas pueden tener restricciones en el número de llamadas por minuto. Implementa lógica para manejar estas limitaciones, como pausas en tu código.
-
-Calidad de los Datos:
-
-Los datos extraídos pueden contener ruido. Dedica tiempo suficiente a limpiarlos y prepararlos para el análisis.
