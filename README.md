@@ -98,8 +98,11 @@ Y por otro lado con la APi de rutinas hemos conseguido rutinas especializadas a 
 **Proximos pasos**
 
 Introcuccion de rutinas desde la misma Api, niveles intermedios y mas grupos musculares.
+
 Introduccion de mas productos tanto suplementos como productos frescos del ahorra mas solo con un click podemos aumentar la muestra, de momento no era objetivo del protecto.
+
 Nueva Api de recetas puesto que la obtenida ha tenido problemas.
+
 Crecimiento de la base de datos.
 
 🏍️
