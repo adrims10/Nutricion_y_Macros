@@ -36,8 +36,6 @@ Hemos creado un entorno llamado Webscraping para el siguiente proyecto.
       
 ## 🛠️ Instalación y Requisitos
         Este proyecto usa Python 3.12.6.
-        
-
         1. **requests** - [Documentación de Requests](https://docs.python-requests.org/en/master/)
         2. **json** - [Documentación de JSON](https://docs.python.org/3/library/json.html)
         3. **pandas** - [Documentación de Pandas](https://pandas.pydata.org/pandas-docs/stable/)
@@ -50,6 +48,8 @@ Hemos creado un entorno llamado Webscraping para el siguiente proyecto.
         10. **psycopg2** - [Documentación de Psycopg2](https://www.psycopg.org/docs/)
 
 
+
+Cada enlace apunta a la documentación oficial de la librería correspondiente.
 
 Cada enlace apunta a la documentación oficial de la librería correspondiente.
 # 📝Webs:
