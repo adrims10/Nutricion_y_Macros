@@ -99,8 +99,11 @@ On the other hand, with the workout API, we obtained customized routines (with f
 **Next Steps**
 
 Introduction of routines directly from the API, including intermediate levels and more muscle groups.
+
 Addition of more products, both supplements and fresh products from Ahorra Mas. With a click, we can increase the sample size, though expanding the dataset wasn't the primary goal of this project.
+
 New recipe API, as the current one encountered issues.
+
 Database expansion.
 
 🏍️
