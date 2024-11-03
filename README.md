@@ -36,25 +36,32 @@ Hemos creado un entorno llamado Webscraping para el siguiente proyecto.
       
 ## 🛠️ Instalación y Requisitos
         Este proyecto usa Python 3.12.6.
-        requests - Documentación de Requests
-        json - Documentación de JSON
-        pandas - Documentación de Pandas
-        sys - Documentación de sys
-        os - Documentación de os
-        dotenv - Documentación de Python-dotenv
-        webdriver - Documentación de Selenium WebDriver
-        BeautifulSoup - Documentación de BeautifulSoup
-        numpy - Documentación de NumPy
-        psycopg2 - Documentación de Psycopg2    
-      
+        
+
+        1. **requests** - [Documentación de Requests](https://docs.python-requests.org/en/master/)
+        2. **json** - [Documentación de JSON](https://docs.python.org/3/library/json.html)
+        3. **pandas** - [Documentación de Pandas](https://pandas.pydata.org/pandas-docs/stable/)
+        4. **sys** - [Documentación de sys](https://docs.python.org/3/library/sys.html)
+        5. **os** - [Documentación de os](https://docs.python.org/3/library/os.html)
+        6. **dotenv** - [Documentación de Python-dotenv](https://saurabh-kumar.com/python-dotenv/)
+        7. **webdriver** - [Documentación de Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
+        8. **BeautifulSoup** - [Documentación de BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+        9. **numpy** - [Documentación de NumPy](https://numpy.org/doc/)
+        10. **psycopg2** - [Documentación de Psycopg2](https://www.psycopg.org/docs/)
+
+
+
+Cada enlace apunta a la documentación oficial de la librería correspondiente.
 # 📝Webs:
 
   Pontemasfuerte: https://www.pontemasfuerte.com pagina de suplementos deportivos.
+  
   Ahorramas: https://www.ahorramas.com/ pagina web de Ahorramas
   
  # 📝Apis:
  
    api-ninjas : Api rutinas de ejercicio.
+   
    tasty : Api para recetas.
  
 **Resultados , Conclusiones**
