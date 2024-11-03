@@ -1,69 +1,99 @@
-**Proyecto: Análisis del Impacto de los Suplementos Deportivos en el Rendimiento en el Gimnasio**
+# Proyecto4-Nutricion y Macros
 
-Descripción General:
+![image](https://github.com/user-attachments/assets/8d0cb5a0-99b8-42df-a7a3-59b992f1da6e)
 
-El objetivo es investigar cómo diferentes suplementos deportivos influyen en el rendimiento de los atletas en el gimnasio. Se recopilarán datos sobre el uso de suplementos y las estadísticas de rendimiento para analizar posibles correlaciones.
+Bienvenidos! 
 
-1. Uso de dos APIs gratuitas:
-
-API de MyFitnessPal
-API de Strava
-O algo asi
+# *Es un placer recibirlos*
 
 
-2. Web Scraping de dos páginas web:
+# 📝 En que consiste:
 
-Foros Deportivos Especializados: Prozis...
+Hemos imaginado personas que necesitan un analisis de precios y rutinas diarias para empezar a estar en forma. Por lo que vamos a ofrecer 4 herramientas sencillas para que estas puedan inciarse en la nutricion y en el ejercicio siempre partiendo desde una base baja.
 
-Extracción de Datos:
+# Objetivos del proyecto:
 
-APIs:
+Scraping de datos: Extraemos producto en la pagina de suplementos deportivos para optimizar el rendimiento deportivo y nuticional, ademas de extaer productos frescos de la pagina web de Ahorra Mas. 
 
-MyFitnessPal API: Obtener datos sobre la ingesta diaria de proteínas, creatina, BCAA, etc.
+Extracions de datos de la Api: Obtencion de datos de rutinas y recetas fitnes de las Apis.
 
-Strava API: Recopilar datos de entrenamientos, incluyendo tiempo, distancia, velocidad y frecuencia.
+Creacion de base de datos en Dbeaver llamada Salud.
 
-Web Scraping:
+Analisis de precios, reseñas de los prouctos, descuentos y creacion de rutinas y recetas personalizadas.
 
-Extraer opiniones y experiencias de los usuarios sobre suplementos.
-
-Extraer datos de ventas, reseñas y calificaciones de diferentes suplementos.
+# Análisis de Datos:
 
 
-Análisis de Sentimiento:
+## 🗂️ Estructura del Proyecto
+Hemos creado un entorno llamado Webscraping para el siguiente proyecto.
 
-Analizar  el sentimiento de las reseñas y opiniones (positivo, negativo, neutro).
+        ├── notebooks/           # Notebooks de Jupyter donde se encontraran la limpieza de los datos y la visualizacion
+                                  6.Exploracion datos es el archivo de conclusiones y graficas
+        ├── src/                 # Doportes de funciones
+        ├─  Datos                # Datos obtenidos durante el estudio, csv y json
+        ├── README.md            # Descripción del proyecto
+        ├── README_English version.md   # Descripción del proyecto en ingles
+      
+## 🛠️ Instalación y Requisitos
+        Este proyecto usa Python 3.12.6.
+        requests - Documentación de Requests
+        json - Documentación de JSON
+        pandas - Documentación de Pandas
+        sys - Documentación de sys
+        os - Documentación de os
+        dotenv - Documentación de Python-dotenv
+        webdriver - Documentación de Selenium WebDriver
+        BeautifulSoup - Documentación de BeautifulSoup
+        numpy - Documentación de NumPy
+        psycopg2 - Documentación de Psycopg2    
+      
+# 📝Webs:
+
+  Pontemasfuerte: https://www.pontemasfuerte.com pagina de suplementos deportivos.
+  Ahorramas: https://www.ahorramas.com/ pagina web de Ahorramas
+  
+ # 📝Apis:
+ 
+   api-ninjas : Api rutinas de ejercicio.
+   tasty : Api para recetas.
+ 
+**Resultados , Conclusiones**
+Hemos obtenido 9930 rutinas en la APi.
+Hemos obtenido 120 productos completos dinamicos de la pagina web fuertisimo.
+Hemos obtenido 62 productos completos dinamicos de la pagina web Ahorramas.
+Hemos obtenido 30 recetas completas con la APi.
+
+El precio medio de los suplementos deportivos en esta pagina es de 37,63 euros entrando en todas las categorias de los mismos.
+          -Donde el precio medio de las proteinas es de 55.70 euros.
+          -El precio medio de los BCAS es de 26.694 euros.
+          -El precio medio de los L-Carnitone es es de 17.74 euros.
+          -El precio medio de los Creatina es es de 30.73 euros.
+          
+
+El preciomaximo  de los suplementos deportivos en esta pagina es de 123.6 euros entrando en todas las categorias de los mismos.
+          -Donde el precio medio de las proteinas es de 123.6 euros.
+          -El precio medio de los BCAS es de 38.1 euros.
+          -El precio medio de los L-Carnitone es es de 18.15 euros.
+          -El precio medio de los Creatina es es de 53.9 euros.
+
+Obteniendo como conclusion que el suplemento deportivo mas caro por categoria es la proteina, tambien teniendo en cuenta que es la que con mas frecuencia se usa y los formatos.
 
 
-Integración y Comparación:
-
-Combinar los datos de ingesta de suplementos con las estadísticas de rendimiento en un marco temporal común.
-
-Analizar correlaciones entre el uso de ciertos suplementos y mejoras en el rendimiento (por ejemplo, aumento de fuerza, resistencia, recuperación).
+Con respecto al analisis de los productos frescos del Ahorra Mas encontramos precios medios sobre 10 euros, precios maximos de 27 euros y precios minimos de 1.39 donde encontramos alguna legumbre.
+Observamos en esta seccion que tenemos un descuento de un cupon medio de un 18.5 por ciento. Por lo que los precios suelen bajar bastante.( Ver graficas comparativas en nootebook 6.
 
 
-Visualización:
+Como resultado de las APis hemos logrado un filtro para obtener recetas por tipos de ingredientes, por idiomas, o por servicio.
+Y por otro lado con la APi de rutinas hemos conseguido rutinas especializadas a falta de actualizar la base de datos.
+🌟
 
--Crear gráficos interactivos para mostrar la relación entre el uso de suplementos y el rendimiento.
--Precios entre las dos paginas web scrapeadas.
--Ejemplos de macros de las peñas
--Comparativas de satisfaccion entre las paginas.
--Personas con determinado precio que necesiten historias.
+ 
+**Proximos pasos**
 
+Introcuccion de rutinas desde la misma Api, niveles intermedios y mas grupos musculares.
+Introduccion de mas productos tanto suplementos como productos frescos del ahorra mas solo con un click podemos aumentar la muestra, de momento no era objetivo del protecto.
+Nueva Api de recetas puesto que la obtenida ha tenido problemas.
+Crecimiento de la base de datos.
 
-
-*Proximos pasos*:
-
-Considera incluir datos de otros deportes como el ciclismo o el running.
-Una vez analizados los datos, podrías implementar un modelo de machine learning para predecir el rendimiento en función del uso de suplementos.
-
-
-
-
-
-
-
-
-
-
-
+🏍️
+![OIP](https://github.com/user-attachments/assets/a3261f22-9193-45df-bf33-14a396dfd988)
