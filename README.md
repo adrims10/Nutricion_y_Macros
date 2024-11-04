@@ -13,13 +13,14 @@ Hemos imaginado personas que necesitan un analisis de precios y rutinas diarias 
 
 # Objetivos del proyecto:
 
-Scraping de datos: Extraemos producto en la pagina de suplementos deportivos para optimizar el rendimiento deportivo y nuticional, ademas de extaer productos frescos de la pagina web de Ahorra Mas. 
+Scraping de datos: Extraemos producto en la pagina de suplementos deportivos para optimizar el rendimiento deportivo y nuticional.
+                   Extaer productos frescos de la pagina web de Ahorra Mas. 
 
 Extracions de datos de la Api: Obtencion de datos de rutinas y recetas fitnes de las Apis.
 
 Creacion de base de datos en Dbeaver llamada Salud.
 
-Analisis de precios, reseñas de los prouctos, descuentos y creacion de rutinas y recetas personalizadas.
+Analisis de precios, reseñas de los productos, descuentos y creacion de rutinas y recetas personalizadas.
 
 # Análisis de Datos:
 
@@ -28,7 +29,7 @@ Analisis de precios, reseñas de los prouctos, descuentos y creacion de rutinas 
 Hemos creado un entorno llamado Webscraping para el siguiente proyecto.
 
         ├── notebooks/           # Notebooks de Jupyter donde se encontraran la limpieza de los datos y la visualizacion
-                                  6.Exploracion datos es el archivo de conclusiones y graficas
+                                  archivo de conclusiones y visualizacion : 6.Exploracion datos es el archivo de conclusiones y graficas
         ├── src/                 # Doportes de funciones
         ├─  Datos                # Datos obtenidos durante el estudio, csv y json
         ├── README.md            # Descripción del proyecto
@@ -36,22 +37,17 @@ Hemos creado un entorno llamado Webscraping para el siguiente proyecto.
       
 ## 🛠️ Instalación y Requisitos
         Este proyecto usa Python 3.12.6.
-        1. **requests** - [Documentación de Requests](https://docs.python-requests.org/en/master/)
-        2. **json** - [Documentación de JSON](https://docs.python.org/3/library/json.html)
-        3. **pandas** - [Documentación de Pandas](https://pandas.pydata.org/pandas-docs/stable/)
-        4. **sys** - [Documentación de sys](https://docs.python.org/3/library/sys.html)
-        5. **os** - [Documentación de os](https://docs.python.org/3/library/os.html)
-        6. **dotenv** - [Documentación de Python-dotenv](https://saurabh-kumar.com/python-dotenv/)
-        7. **webdriver** - [Documentación de Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
-        8. **BeautifulSoup** - [Documentación de BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-        9. **numpy** - [Documentación de NumPy](https://numpy.org/doc/)
-        10. **psycopg2** - [Documentación de Psycopg2](https://www.psycopg.org/docs/)
+        **requests** - [Documentación de Requests](https://docs.python-requests.org/en/master/)
+        **json** - [Documentación de JSON](https://docs.python.org/3/library/json.html)
+        **pandas** - [Documentación de Pandas](https://pandas.pydata.org/pandas-docs/stable/)
+        **sys** - [Documentación de sys](https://docs.python.org/3/library/sys.html)
+        **os** - [Documentación de os](https://docs.python.org/3/library/os.html)
+        **dotenv** - [Documentación de Python-dotenv](https://saurabh-kumar.com/python-dotenv/)
+        **webdriver** - [Documentación de Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
+        **BeautifulSoup** - [Documentación de BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+        **numpy** - [Documentación de NumPy](https://numpy.org/doc/)
+        **psycopg2** - [Documentación de Psycopg2](https://www.psycopg.org/docs/)
 
-
-
-Cada enlace apunta a la documentación oficial de la librería correspondiente.
-
-Cada enlace apunta a la documentación oficial de la librería correspondiente.
 # 📝Webs:
 
   Pontemasfuerte: https://www.pontemasfuerte.com pagina de suplementos deportivos.
